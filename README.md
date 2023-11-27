@@ -1,6 +1,10 @@
 # PyDictionary
 Python wrapper over the Free Dictionary API
 
+```
+pip install PyDictionary
+```
+
 ```python
 from PyDictionary.PyDictionary import pyDictionary
 
