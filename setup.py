@@ -11,7 +11,7 @@ requirements = [
 
 setuptools.setup(
     name="PythonDictionary",
-    version="0.0.1",
+    version="0.0.2",
     author="Vishnu Nandakumar",
     author_email="nkumarvishnu25@gmail.com",
     description="Python wrapper for the Free Dictionary API",
