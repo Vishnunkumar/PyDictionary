@@ -10,20 +10,20 @@ requirements = [
 
 
 setuptools.setup(
-    name="PyDictionary",
+    name="PythonDictionary",
     version="0.0.1",
     author="Vishnu Nandakumar",
     author_email="nkumarvishnu25@gmail.com",
     description="Python wrapper for the Free Dictionary API",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url = 'https://github.com/Vishnunkumar/PyDictionary/',
+    url = 'https://github.com/Vishnunkumar/PythonDictionary/',
     packages=[
-        'PyDictionary',
+        'PythonDictionary',
     ],
-    package_dir={'PyDictionary': 'PyDictionary'},
+    package_dir={'PythonDictionary': 'PythonDictionary'},
     package_data={
-        'PyDictionary': ['PyDictionary/*.py']
+        'PythonDictionary': ['PythonDictionary/*.py']
     },
     install_requires=requirements,
     license="MIT license",
