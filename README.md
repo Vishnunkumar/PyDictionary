@@ -9,7 +9,7 @@ pip install PyDictionary
 from PyDictionary.PyDictionary import pyDictionary
 
 pydictionary = pyDictionary.PyDictionary(word="world")
-definitions, synonyms = pydictionary.get_meanings(partOfSpeech="noun")
+definitions, synonyms = pydictionary.getDefinitions(partOfSpeech="noun")
 audio = pydictionary.getAudio()
 dictionary = pydictionary.getDictionary()
 ```
