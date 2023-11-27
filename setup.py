@@ -4,13 +4,8 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 requirements = [
-  'transformers',
-  'torch',
-  'pillow',
-  'timm',
   'numpy',
-  'opencv-python',
-  'pytesseract'
+  'requests'
 ]
 
 
