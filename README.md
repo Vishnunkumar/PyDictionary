@@ -6,7 +6,7 @@ pip install PyDictionary
 ```
 
 ```python
-from PyDictionary.PyDictionary import pyDictionary
+from PyThonDictionary import pyDictionary
 
 pydictionary = pyDictionary.PyDictionary(word="world")
 definitions, synonyms = pydictionary.getDefinitions(partOfSpeech="noun")
