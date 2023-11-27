@@ -1,5 +1,5 @@
 import requests
-from constants import API_URL
+from .constants import API_URL
 
 class PyDictionary:
     def __init__(self, word):
